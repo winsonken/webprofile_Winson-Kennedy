@@ -24,12 +24,13 @@ nav.nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.3rem;
+    padding: 0.8rem;
     width: 100%;
 }
 
 nav.nav div.logo {
     color: #FFFFFF;
+    font-size: 0.8rem;
 }
 
 nav.nav ul {
@@ -45,7 +46,7 @@ nav.nav ul li {
 nav.nav ul li a {
     display: block;
     color: #FFFFFF;  
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     text-decoration: none;
     cursor: pointer ;
@@ -69,11 +70,12 @@ div.content section.profile {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 100px;
 }
 
 div.content section.profile div.image-profile img {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     object-fit: cover;
     color: var(--primary-color);
@@ -85,18 +87,19 @@ div.content section.profile div.text-profile {
 } 
 
 div.content section.profile div.text-profile div.title {
-    font-size: 1.5em;
+    font-size: 1.2rem;
     margin-bottom: 15px;
     color: #06283D;
 }
 
 div.content section.profile div.text-profile div.description p:nth-child(1){
-    font-size: 1.5em;
+    font-size: 1.1em;
     margin-top: 3px;
 }
 
 div.content section.profile div.text-profile div.description p:nth-child(2){
     margin-top: 10px;
+    font-size: 0.8rem;
 }
 
 
@@ -112,7 +115,7 @@ div.content section.profile div.text-profile div.icon-sosmed ul li a {
     background-color: #FFFFFF;
     border-radius: 0.5rem;
     padding: 0.5rem;
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     color: var(--primary-color);
 }
 
@@ -120,7 +123,7 @@ div.content section.profile div.text-profile div.icon-sosmed ul li a {
 div.content section.about div.title {
     color: var(--primary-color);
     background-color: #FFFFFF;
-    font-size: 2em;
+    font-size: 1.5em;
     width: fit-content;
     padding: 0.1em;
     border-radius: 0.2em;
@@ -132,7 +135,7 @@ div.content section.about div.about-content {
 }
 
 div.content section.about div.about-content div.description {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #06283D;
     font-weight: bold;
 }
@@ -147,7 +150,7 @@ div.content section.about div.about-content div.logo {
 div.content section.skill div.title {
     color: var(--primary-color);
     background-color: #FFFFFF;
-    font-size: 2em;
+    font-size: 1.5em;
     width: fit-content;
     padding: 0.1em;
     border-radius: 0.2em;
@@ -181,7 +184,7 @@ div.content section.skill div.all-skill div.each-skill:hover {
 div.content section.project div.title {
     color: var(--primary-color);
     background-color: #FFFFFF;
-    font-size: 2em;
+    font-size: 1.5em;
     width: fit-content;
     padding: 0.1em;
     border-radius: 0.2em;
@@ -204,7 +207,7 @@ div.content section.project div.all-project div.each-project {
 }
 
 div.content section.project div.all-project div.each-project div.project-title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 0 8rem;
     color: #FFFFFF;
 }
@@ -234,6 +237,6 @@ footer.footer {
 }
 
 footer.footer div.footer-text {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     color: var(--secondary-color);
 }
